@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* 헤더 */
+header{
+    background-color:floralwhite;
+}
+.test2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 15vh;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.box1, .box2, .box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+    width: 40vw;
+    height: 85vh;
+    border: 1px solid black;
+    margin: 10px;
+   
+    transition: all 0.2s;
+}
+
+.box1:hover{
+    transform:  translateY(-2%);
+}
+
+.box2:hover{
+    transform:  translateY(-2%);
+}
+
+.box3:hover{
+    transform:  translateY(-2%);
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo{
+    margin-top: 20px;
+    width : 5vw;
+    height : 10vh
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    height: 75vh;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80vw;
+    height: 60vh;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 150px;
+}
+
+
+.seat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 30px;
+    border: 1px solid black; 
+}
+
+
+.time{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size : 30px;
+    border: 0.2px solid black;  
+    cursor: pointer;
+}
+
+.notice{
+    display: flex;
+    width : 100vw;
+    height : 10vh;
+    font-size : 30px;
+    justify-content: start;
+    align-items: center;
+    margin-left : 15px;
+}
+
+.notice1{
+    display: flex;
+    width : 100vw;
+    height : 10vh;
+    font-size : 30px;
+    justify-content : start;
+    align-items: center;
+    margin-left : 15px;
+}   
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+}
